@@ -28,8 +28,3 @@ def layer_two_weights(layer_1, layer_2):
             g[i, j] = distance(i, j, layer_1)
     return g
     
-a = distance(0,223,25)
-print (a)
-
-g = layer_two_weights(25,25)
-print(g)
